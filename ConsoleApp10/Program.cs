@@ -9,10 +9,8 @@ string Chosen = Console.ReadLine();
 
 Console.Write("zadej hodnotu teploty: ");
 
-
-
-string Celsius = Console.ReadLine();
-int CelsiusImp = Convert.ToInt32(Celsius);
+string celsius = Console.ReadLine();
+int CelsiusImp = Convert.ToInt32(celsius);
 int Fahrenheit = CelsiusImp * 9 / 5 + 32;
 int Fahr2 = (CelsiusImp - 32) * 5 / 9;
 
