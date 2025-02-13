@@ -28,3 +28,8 @@ if (Chosen == "Fahrenheit")
 {
     Console.WriteLine($"Dnes je {Fahr2} Celsius");
 }
+
+if (Chosen == "")
+{
+    Console.WriteLine("prázdný výběr");
+}
