@@ -1,5 +1,5 @@
-﻿string C = "Celsius / C";
-string F = "Fahrenheit / F";
+﻿string C = "Celsius";
+string F = "Fahrenheit";
 
 Console.WriteLine(C);
 Console.WriteLine(F);
