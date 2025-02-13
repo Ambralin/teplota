@@ -1,5 +1,5 @@
-﻿string C = "Celsius / C";
-string F = "Fahrenheit / F";
+﻿string C = "Celsius";
+string F = "Fahrenheit";
 
 Console.WriteLine(C);
 Console.WriteLine(F);
@@ -27,4 +27,9 @@ if (Chosen == "Celsius")
 if (Chosen == "Fahreheit")
 {
     Console.WriteLine($"Dnes je {Fahr2} Celsius");
+}
+
+if (Chosen == "")
+{
+    Console.WriteLine("prázdný výběr");
 }
