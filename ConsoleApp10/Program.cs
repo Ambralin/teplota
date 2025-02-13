@@ -9,7 +9,7 @@ string Chosen = Console.ReadLine();
 
 Console.Write("zadej hodnotu teploty: ");
 
-int celsius = 100;
+int celsius = 200;
 int Fahrenheit = celsius * 2 + 30;
 int Fahr2 = (celsius - 32) * 5 / 9;
 
