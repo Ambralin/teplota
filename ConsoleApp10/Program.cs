@@ -24,7 +24,7 @@ if (Chosen == "Celsius")
 {
     Console.WriteLine($"Dnes je {Fahrenheit} Fahrenheit");
 }
-if (Chosen == "Fahrenheit")
+if (Chosen == "Fahreheit")
 {
     Console.WriteLine($"Dnes je {Fahr2} Celsius");
 }
